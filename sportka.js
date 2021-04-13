@@ -9,6 +9,7 @@
 
 let osudi = [];
 
+//naplním osudí
 for (let i = 1; i <= 48; i = i + 1){
     osudi.push(i);
 }
@@ -24,7 +25,6 @@ for (let i = 0; i <= 6; i = i + 1){
     tazenaCisla.push(vyherniCislo);
     osudi.splice(vyherniIndex, 1);
 }
-
 
 //vypíšu do html
 let vyherniCisla = document.querySelector('#vyherni-cisla');
