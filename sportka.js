@@ -27,4 +27,8 @@ for (let i = 0; i <= 6; i = i + 1){
 
 
 //vypíšu do html
+let vyherniCisla = document.querySelector('#vyherni-cisla');
 
+for (let i = 0; i < tazenaCisla.length; i++){
+    vyherniCisla.innerHTML += '<span class="cislo">'+ tazenaCisla[i]+ '</span>';
+}
